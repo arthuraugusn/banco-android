@@ -21,7 +21,7 @@ class Contact {
 
     // Definindo como a data de nascimento vai ser digitada no banco
     @ColumnInfo(name = "data_nascimento")
-    var dataNascimento: LocalDate? = null
+    var dataNascimento= ""
 
-    var foto: Drawable? = null
+    var foto= ""
 }

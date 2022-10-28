@@ -4,7 +4,7 @@ import androidx.room.*
 import br.senai.sp.jandira.agenda.model.Contact
 import kotlinx.coroutines.selects.select
 
-// Mostra pro banco que esta "classe"é uma dao
+// Mostra pro banco que esta "classe" é uma dao
 @Dao
 interface ContactDao {
 
