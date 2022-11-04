@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.agenda.dao
 
+import android.content.Context
 import androidx.room.*
 import br.senai.sp.jandira.agenda.model.Contact
 import kotlinx.coroutines.selects.select
