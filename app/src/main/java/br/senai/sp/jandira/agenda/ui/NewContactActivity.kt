@@ -66,6 +66,8 @@ class NewContactActivity : AppCompatActivity() {
         binding.editTextName.setText(contact.nome)
         binding.editTextPhone.setText(contact.telefone)
         binding.editTextBirthday.setText(contact.dataNascimento)
+
+        Toast.makeText(this, "$id", Toast.LENGTH_SHORT).show()
     }
 
     private fun save() {
@@ -84,8 +86,6 @@ class NewContactActivity : AppCompatActivity() {
         }else{
             val id=contactRepository.save(contact)
         }
-
-
 
         Toast.makeText(this, "ID: $id", Toast.LENGTH_LONG).show()
 
